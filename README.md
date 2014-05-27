@@ -23,7 +23,7 @@ Note: if you wish to customise where Bower puts installed components, you may ad
         @import "../bower_components/Font-Awesome/scss/font-awesome";
         
         // This plugin
-        @import "../dist/mixins";
+        @import "../bower_components/ct-Font-Awesome-mixins/dist/mixins";
         
         // Test styles
         .selector:after {
