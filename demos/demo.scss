@@ -1,0 +1,20 @@
+// To render this file:
+// sass -t compressed demo.scss demo.css
+
+// Font Awesome
+$fa-font-path: "../bower_components/Font-Awesome/fonts"; // Font-Awesome/scss/_variables.less, was "../font" (path is relative to css folder)
+@import "../bower_components/Font-Awesome/scss/font-awesome";
+
+// This plugin
+@import "../dist/mixins";
+
+// Test styles
+.test {
+    font-size: 10em;
+    color: green;
+    margin: 0;
+
+    &:after {
+        @include icon($fa-var-check-square-o);
+    }
+}

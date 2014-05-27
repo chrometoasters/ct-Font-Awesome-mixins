@@ -19,5 +19,9 @@ Note: if you wish to customise where Bower puts installed components, you may ad
 ## Usage
 
     @include icon($fa-var-ICON_NAME);
-    
+
 A list of icons is viewable here: http://fortawesome.github.io/Font-Awesome/icons/
+
+## Demo
+
+Please refer to `demos/ct-Font-Awesome-mixins.html`.
