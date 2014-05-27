@@ -18,7 +18,17 @@ Note: if you wish to customise where Bower puts installed components, you may ad
 
 ## Usage
 
-    @include icon($fa-var-ICON_NAME);
+        // Font Awesome
+        $fa-font-path: "../bower_components/Font-Awesome/fonts"; // Font-Awesome/scss/_variables.less, was "../font" (path is relative to css folder)
+        @import "../bower_components/Font-Awesome/scss/font-awesome";
+        
+        // This plugin
+        @import "../dist/mixins";
+        
+        // Test styles
+        .selector:after {
+                @include icon($fa-var-ICON_NAME);
+        }
 
 A list of icons is viewable here: http://fortawesome.github.io/Font-Awesome/icons/
 
