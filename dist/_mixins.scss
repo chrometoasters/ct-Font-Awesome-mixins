@@ -1,5 +1,7 @@
 // usage:
-// @include icon($fa-var-caret-right);
+// .foo:before {
+//   @include icon($fa-var-caret-right);
+// }
 
 @mixin icon($fa-var-icon) {
   @include icon-FontAwesome();
