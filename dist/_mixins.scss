@@ -1,3 +1,6 @@
+// usage:
+// include icon($fa-var-caret-right);
+
 @mixin icon($fa-var-icon) {
   @include icon-FontAwesome();
   content: $fa-var-icon;
